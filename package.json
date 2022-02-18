@@ -1,0 +1,13 @@
+{
+  "name": "subpath-testcase",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "workspaces": [
+    "projecta",
+    "projectb"
+  ],
+  "dependencies": {
+    "typescript": "4.5.5"
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "lib": [
+        "es2020",
+        "dom"
+      ],
+      "module": "ES2020",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      "declaration": true,
+      "sourceMap": true,
+      "types": ["node"],
+      "outDir": "./dist",
+      "rootDir": "./src",
+  
+    },
+    "exclude": [
+      "./node_modules/**/*",
+      "./dist/**/*"
+    ]
+  }
+  

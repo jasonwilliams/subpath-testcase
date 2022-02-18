@@ -1,0 +1,21 @@
+{
+  "name": "projecta",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "exports": {
+    "./utils/*": "./dist/utils/*.js"
+  },
+  "typesVersions": {
+    "*": {
+      "interfaces": [
+        "dist/interfaces"
+      ],
+      "utils": [
+        "dist/index"
+      ]
+    }
+  },
+  "scripts": {
+    "build": "npx tsc"
+  }
+}
